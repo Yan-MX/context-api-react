@@ -1,6 +1,6 @@
 import React from "react";
 
-const Movie = ({ name, price }) => {
+const Movie = ({ name, price, id }) => {
   return (
     <div>
       <h3>{name}</h3>
